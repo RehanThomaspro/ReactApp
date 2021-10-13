@@ -36,6 +36,7 @@ const Card = ({ products, itemCounter, setItemCounter, cartArray }) => {
                 </div>
                 <div className="content">
                   <div className="header">{item.name}</div>
+                  <p>{item.vendor}</p>
                   <div className="price">$ {item.price}</div>
                   {item.available === 1 ? (
                     <div

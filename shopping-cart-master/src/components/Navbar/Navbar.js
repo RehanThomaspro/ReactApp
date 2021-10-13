@@ -30,7 +30,7 @@ const Navbar = ({ itemCounter, products, cartArray }) => {
 
   return (
     <div>
-      <nav className={navbar_style}>
+      <nav className="navbar">
         <p>REACT SHOPPING CART</p>
         <i onClick={clickHandler} className="fas fa-shopping-cart fa-3x"></i>
         <div className="counter">{itemCounter}</div>

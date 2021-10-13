@@ -50,7 +50,7 @@
 .content > .header {
   height: 48px;
   overflow: hidden;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .category {
